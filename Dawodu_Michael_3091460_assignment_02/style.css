@@ -1,0 +1,208 @@
+body{
+  font-family: "century gothic", verdana, "Helvetica Neue", helvetica,  arial, sans-serif;
+}
+
+.flexNav{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+
+}
+
+h1{
+margin:0;
+padding-bottom: 0;
+padding-right: 4rem;
+padding-top: 2rem;
+font-size: 2.5em;
+text-transform: uppercase;
+letter-spacing: 0.5rem;
+
+
+}
+
+h1 a{
+  text-decoration: none;
+  text-shadow: -1px -2px 2px #666666;
+  color: #B1B6A6;
+}
+
+header p{
+  text-align: right;
+  margin: 0;
+  padding-top: 0;
+  padding-right: 4.5rem;
+  padding-bottom: 2rem;
+}
+
+header{
+  padding-top: 1.5rem;
+}
+.flexNav nav a{
+
+  padding-left: 4rem;
+  font-size: 16px;
+  margin-top: 2rem
+}
+
+
+#page {
+  width: 70rem;
+  margin:auto;
+}
+
+header {
+  background-color: #363946;
+  color: #B1B6A6;
+}
+
+ nav a{
+  text-decoration: none;
+  color: #B1B6A6;
+}
+
+ nav a:hover{
+  color: #F7A9A8;
+  text-decoration: underline;
+}
+
+h4{
+  margin 0;
+  font-size: 20px;
+  padding-left: 4rem;
+  color: #363946;
+
+}
+
+
+article{
+  color:#54494B;
+}
+
+#photo{
+  width:85%;
+  margin: 0 0 2rem 4rem;
+  box-shadow: 0 0 10px #777777;
+
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-right: 4rem;
+  font-size: 18px;
+}
+
+.profileWrapper p{
+  text-align: left;
+  line-height: 1.6rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  padding:0;
+  margin-top:0;
+
+}
+
+.profileWrapper p a{
+  text-decoration: none;
+  color: #F87060;
+}
+
+.profileWrapper p a:hover{
+  color: #9DA39A;
+  text-decoration: underline;
+}
+
+.bio{
+  display: inline;
+  align-content: flex-start;
+}
+.quote{
+  padding: 0;
+}
+
+
+
+footer img{
+  width: 15%;
+  padding-left: 35rem;
+  padding-bottom: 1rem;
+  padding-top:1rem;
+
+}
+
+.Homefooter {
+  background-color: #363946;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 4rem;
+  color: white;
+}
+
+.Homefooter p{
+  width: 50%;
+  align-items: center;
+}
+
+header #factsPage{
+  width: 70rem;
+  margin:4rem;
+
+}
+
+.websites a {
+margin-top: 1rem;
+text-decoration: none;
+font-size: inherit;
+color:  #B1B6A6;
+
+}
+
+.websites ul a:hover{
+  color: #F7A9A8;
+  text-decoration: underline;
+
+}
+
+.flexFacts ul{
+  list-style-type: circle;
+  line-height: 1.7rem;
+
+}
+
+.flexFacts ol{
+  line-height: 1.7rem;
+}
+
+h2{
+  margin:0;
+  padding-left: 5rem;
+  text-transform: uppercase;
+  text-shadow: -1px -2px 2px white;
+
+}
+
+.flexFacts{
+  margin:0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding: 5rem;
+  grid-gap: 12rem;
+}
+
+footer a{
+  text-decoration: none;
+  color:#363946;
+  padding-left: 5rem;
+
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: #9DA39A;
+}
